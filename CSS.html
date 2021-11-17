@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" Href="style.css">
+<style>
+p {float: left}
+/*en kommentar som ikke havner i browser*/
+h3, h4 {
+  text-align: right; /*kommentar kan legges overalt*/
+}
+* {
+  text-align: center;
+}
+p.center {
+  text-align: center;
+  color: green;
+}
+p.large {
+ font-size: 300%;
+}
+#para1 {
+  text-align: center;
+  color: blue;
+  }
+body {
+  background-color: linen;
+}
+h1 {
+  color:white;
+   text-align:/*her 
+   også, 
+   på 
+   denne 
+   måten
+   feks*/center;
+}
+p {
+   font-family: verdana;
+   font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Min første CSS eksempel</h1>
+<h1 style="border: 3px solid tomato">Border 3px</h1>
+<h1 style="background-color:rbg(255, 255, 255);">asdsda</h1>
+<h2 class="center">TESTING-denne blir ikke berørt av p.center class selector, men av universal selector..</h2>
+<h3 class="large"> grouping selector test</h3>
+<h4 style="background-color: tomato;">grouping selector test</h4>
+<p class="center large">Dette er en paragraf</p>
+<p id="para1">Blå tekst</p>
+<p id="testingz">dfsfs</p>
+
+</body>
+</html>
